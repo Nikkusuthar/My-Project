@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 0 auto;
+    max-width: 1213px;
+}
+
+.roww {
+    display: flex;
+}
+
+.jcn {
+    justify-content: space-between;
+}
+
+/* ----------------------banner------------------- */
+.main_section {
+    background-image: url(./Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    background-size: cover;
+    background-position: cover cover;
+}
+
+.header_color {
+    border: 2px solid green;
+    background-color: #303030;
+}
+
+.main_section .row {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_section .row .brand_logo img {
+    border: 2px solid red;
+    max-width: 130px;
+    vertical-align: center;
+}
+
+.main_section .row .nav_bar {
+    line-height: 75px;
+}
+
+.main_section .row .nav_bar ul {
+    display: flex;
+}
+
+.main_section .row .nav_bar ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+.main_section .row .nav_bar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.main_section .row .icon {
+    line-height: 75px;
+}
+
+.main_section .row .icon i {
+    color: white;
+    padding: 15px;
+}
+
+.main_section .row .nav_bar ul li a:hover {
+    color: red;
+}
+
+.our_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 85vh;
+}
+
+.our_detail .our_title h1 {
+    border: 2px solid red;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.our_detail .title_prg {
+    border: 2px solid green;
+    margin-bottom: 11px;
+    max-width: 483px;
+}
+
+.our_detail .title_prg p {
+    font-size: 19px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.our_detail .title_button {
+    margin-bottom: 30px;
+}
+
+.our_detail .title_button .btn {
+    padding: 4px 43px;
+    background-color: #e8631c;
+    border-radius: 4px;
+    border-color: #e8631c;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+/* Secound Section */
+.dance_tour {
+    background-color: #e8631c;
+    position: relative;
+    overflow: hidden;
+}
+
+.dance_tour .dance_main .dance_detail h2 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+
+.dance_tour .dance_main .dance_detail p {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.dance_tour .dance_main .dance_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.dance_tour .dance_main .dance_list .america {
+    box-shadow: 1px 0.5px 6px;
+    background-color: #303030;
+}
+
+.dance_tour .dance_main .dance_list .america img {
+    max-width: 362px;
+}
+
+.dance_tour .dance_main .dance_list .america h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: 20px 0 10px 0;
+    color: #ffffff;
+
+}
+
+.dance_tour .dance_main .dance_list .america p {
+    max-width: 258px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.dance_main .dott_img img {
+    position: absolute;
+    top: -251px;
+    left: -427px;
+    overflow: hidden;
+    filter: invert(100);
+}
+
+/* section Third */
+.pricing {
+    padding: 50px 0 118px 0;
+    background-color: #303030;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing .pricing_list h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 37px 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+
+}
+
+.pricing .pricing_list p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    max-width: 830px;
+    margin: 0 auto 50px;
+}
+
+.pricing .pricing_card {
+    align-items: center;
+}
+
+.pricing .pricing_card .dance_typ {
+    width: 30%;
+    background-color: #e8631c;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e8631c;
+    z-index: 1;
+}
+
+.pricing .pricing_card .dance_typ .pricing_img {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing .pricing_card .dance_typ .pricing_img img {
+    margin: 65px 0;
+}
+
+.pricing .pricing_card .dance_typ h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.pricing .pricing_card .dance_typ p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.pricing .pricing_card .dance_typ .pricing_btn {
+    padding: 10px 65px;
+    margin-bottom: 15px;
+    background-color: #303030;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    border-color: #303030;
+    border-radius: 4px;
+}
+
+.pricing .price_dott img {
+    position: absolute;
+    top: -383px;
+    left: -470px;
+}
+
+.pricing .price_dott2 img {
+    position: absolute;
+    bottom: -586px;
+    right: -353px
+}
+
+.pricing .price_dott_bottom img {
+    position: absolute;
+}
+
+/* Saction fourth */
+
+.ameging_dance {
+    background-color: #e8631c;
+    position: relative;
+    overflow: hidden;
+}
+
+.ameging_dance .dance_ameging {
+    display: flex;
+}
+
+.ameging_dance .dance_ameging .img_dance {
+    width: 50%;
+}
+
+.ameging_dance .dance_ameging .img_dance img {
+    width: 100%;
+    display: block;
+}
+
+.ameging_dance .dance_ameging .about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 100px;
+}
+
+.ameging_dance .dance_ameging .about h2 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ameging_dance .dance_ameging .about p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.ameging_dance .dance_ameging .about .ameging_dance_btn {
+    padding: 12px 65px;
+    background-color: #303030;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.ameging_dance .ameging_dance_dott {
+    position: absolute;
+    top: -625px;
+    right: -229px;
+}
+
+.ameging_dance .ameging_dacnce_dottbtoom {
+    position: absolute;
+    bottom: -384px;
+    right: -270px;
+}
+
+/* fifth Section */
+
+.best_dance {
+    background-color: #e8631c;
+    position: relative;
+    overflow: hidden;
+    
+}
+.ameging_dacnce_dottbtoom1{
+    position: absolute;
+    right: 892px;
+    top: 340px;
+}
+
+
+.best_dance .dance_best {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best_dance .dance_best .best_dance_about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 100px;
+}
+
+.best_dance .dance_best .best_dance_about h2 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.best_dance .dance_best .best_dance_about p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.best_dance .dance_best .best_dance_about .best_btn {
+    padding: 12px 65px;
+    background-color: #303030;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.best_dance .dance_best .img_best_dance {
+    width: 50%;
+}
+
+.best_dance .dance_best .img_best_dance img {
+    width: 100%;
+    display: block;
+}
+
+
+/* Sixth Section */
+.our_statistic {
+    padding: 70px 0;
+    background-color: #303030;
+}
+
+.our_statistic .our_about h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.our_statistic .our_about p {
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+    max-width: 910px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.our_statistic .our_about .our_meumber {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.our_statistic .our_about .our_meumber .meumber_ship {
+    text-align: center;
+}
+
+.our_statistic .our_about .our_meumber .meumber_ship h3 {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.our_statistic .our_about .our_meumber .meumber_ship span {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/* seven Section */
+.nike {
+    background-image: url(./dual.png);
+    padding: 93px 0;
+}
+
+.nike .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+.nike .text p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.nike .text h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-top: 37px;
+}
+
+/* eight section */
+.subscribe {
+    padding: 100px;
+    background-color: #e8631c;
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe .about_subscribe .contec h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.subscribe .about_subscribe .contec p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 0 55px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.subscribe .about_subscribe .gmail {
+    display: flex;
+    justify-content: center;
+
+}
+
+.subscribe .about_subscribe .gmail .email {
+    width: 25%;
+    padding: 8px 0;
+}
+
+.subscribe .about_subscribe .gmail .subscribe_btn {
+    border: none;
+    padding: 4px 20px;
+    background-color: #303030;
+    color: #ffffff;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.subscribe .subscribr_dott_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+input::placeholder {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.subscribe .subscribr_dott_left {
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #303030;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 35px;
+}
+
+.footer_menu .footer_musicolcgy {
+    width: 50%;
+}
+
+.footer_menu .footer_musicolcgy h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer_menu .footer_musicolcgy p {
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer_menu .footer_musicolcgy .footer_icon {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    font-size: 20px;
+}
+
+.footer_menu .footer_musicolcgy .footer_icon .icon_btn i {
+    color: #ffffff;
+}
+
+.footer_menu .footer_left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu .footer_left .footer_about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer_menu .footer_left .footer_about ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.footer_menu .footer_left .footer_about ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.footer_menu .footer_left .footer_services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer_menu .footer_left .footer_services ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.footer_menu .footer_left .footer_services ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer_menu .footer_left .footer_other h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer_menu .footer_left .footer_other ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.footer_menu .footer_left .footer_other ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
