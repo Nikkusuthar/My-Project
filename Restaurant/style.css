@@ -1,0 +1,510 @@
+/* -------------------------universol-------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------navbar----------------------------------------------- */
+
+.main_section {
+    background-color: #537942;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main_section .header_color {
+    background-color: #537543;
+    height: 74px;
+    box-shadow: 12px 0 186px 0px;
+}
+
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.main_section .header_color .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .row .logo img {
+    vertical-align: center;
+    max-width: 200px;
+}
+
+.row .navbar {
+    line-height: 69px;
+}
+
+.navbar ul {
+    display: flex;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+
+
+.container .row .icon img {
+    margin: 15px;
+    color: white;
+    box-shadow: 12px 0 186px 0px;
+}
+
+/* --------------------------------------main_section---------------------------------- */
+
+.container .main {
+    display: flex;
+}
+
+.container .main .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .main .text h2 {
+    font-family: 'Berkshire Swash', cursive;
+    color: aliceblue;
+    font-size: 52px;
+    margin-left: 112px;
+}
+
+.container .main .text h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color: aliceblue;
+    font-size: 119px;
+    margin-top: -41px;
+}
+
+.container .main .text p {
+    font-size: 24px;
+    color: aliceblue;
+    line-height: 31px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container .main .text .btn {
+    width: 294px;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 30px;
+    font-size: 24px;
+    background-color: yellow;
+    border: none;
+}
+
+
+/* ----------------------------------------------secound_section---------------------------------------- */
+
+.secound_sec {
+    background-color: #537942;
+    padding: 97px 0;
+}
+
+.container1 {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.secound_sec .box {
+    width: 1250px;
+    height: 471px;
+    background-color: #e6ca48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 242px 0 0 246px;
+    box-shadow: 50px 0 0px 0px #e6ca48;
+
+}
+
+.secound_sec .box .food_img img {
+    max-width: 475px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+    animation-name: nikku;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes nikku {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+
+.secound_sec .container1 .box .food_text {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 39px 117px 39px 37px;
+    color: #537543;
+}
+
+.secound_sec .container1 .box .food_text h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 70px;
+    line-height: 100px;
+}
+
+.secound_sec .container1 .box .food_text h4 {
+    line-height: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-style: italic;
+}
+
+.secound_sec .container1 .box .food_text p {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 19px;
+}
+
+.secound_sec .container1 .box .food_text .Rm_button {
+    font-size: 23px;
+    padding: 12px;
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+/* -----------------------------Third_Section----------------- */
+
+.third_sec {
+    background-color: #537543;
+}
+
+.third_sec .star_box {
+    display: flex;
+    height: 470px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.third_sec .star_box .one_star {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 329px;
+    margin: auto 0;
+
+}
+
+.star_box .one_star h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    line-height: 79px;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+.star_box .one_star p {
+    color: white;
+    line-height: 23px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+/* -------------------fourth_section----------------- */
+.fourth_sec {
+    background-color: #537942;
+}
+
+.fourth_sec .container .meet {
+    display: block;
+    text-align: center;
+    width: 1246px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.fourth_sec .container .meet h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 74px;
+    padding-top: 18px;
+}
+
+.fourth_sec .container .meet p{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 31px;
+}
+
+
+.main_box .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_box .box .img{
+    box-shadow: 1px 0.5px 6px;
+
+}
+.main_box .box .img img{
+    max-width: 317px;
+    display: block;
+    
+}
+.main_box .box .img h4{
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    color: white;
+    background-color:#2b4c1c;
+    padding-top: 11px;
+    
+}
+.main_box .box .img p{
+    text-align: center;
+    color: white;
+    background-color: #2b4c1c;
+    padding-bottom: 12px;
+}
+
+.main_box .about {
+    color: white;
+    width: 90%;
+    text-align: center;
+    font-size: 19px;
+    margin: 0 auto;
+}
+
+.main_box .about p{
+    padding: 60px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+/* ------------fifth_section------- */
+.fifth_section{
+    background-color: #dd982c ;
+
+}
+.fifth_section .col-50{
+    padding: 85px 0;
+     display: flex;
+     color: white;
+     font-family: 'Poppins', sans-serif; 
+
+}
+.col-1 img{
+     width: 90%;
+     margin: 30px;
+     border-radius: 30px;
+     box-shadow: 0px 0px 7px black;
+}
+
+.col-2{
+    width: 60%;
+    padding: 50px;
+}
+.col-2 h3{
+    font-size: 37px;
+    font-weight: 400;
+}
+.col-2 p{
+    font-size: 18px;
+    margin: 46px 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+.cook_btn{
+    padding: 8px;
+    font-size: 22px;
+    width: 247px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* --------------section_six-------- */
+.six_section{
+    background-color: #537942;
+    color: white;
+}
+.testi{
+    padding: 38px 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.testi h2{
+    font-weight: 700;
+    font-size: 73px;
+    line-height: 135px;
+    font-family: "Berkshire Swash";
+}
+.testi p{
+    font-size: 30px;
+    font-family: "Poppins";
+    line-height: 39px;  
+
+}
+.testi h3{
+    line-height: 87px;
+    font-size: 32px;
+    font-family: "Poppins";
+    font-weight: 100;
+}
+.testi h4{
+    font-size: 100px;
+}
+
+/* ------------seven_section----------- */
+.seven_section{
+    background-color: #e6ca48;
+}
+.our_menu{
+    text-align: center;
+    color: #537942;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Poppins";
+}
+.our_menu h2{
+    font-size: 100px;   
+}
+.our_menu h3{
+    font-size: 40px;
+      
+}
+.our_menu p{
+    padding: 27px 0;
+    font-size: 17px;
+}
+/* --------------eight_section--------------- */
+.eight_section{
+    background-color: #537942;
+}
+.table{
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.thali{
+    width: 350px;
+    height: 350px;    
+}
+.thali_text{
+    padding-top: 43px;
+    color: white; 
+}
+.thali_text h3{ 
+  font-size: 38px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.thali_text h2{ 
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 88px;
+  
+}
+.thali_text p{ 
+    font-size: 20px;
+  }
+
+  /* --------------nine_section-------------- */
+  .nine_section{
+    background-color: white;
+    color: #68914f;
+  }
+
+  .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .sub{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 86px;
+  }
+  .nine_section p{
+    font-family: "Poppins";
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .nine_section input{
+    outline: none;
+    border: 3px solid #68914f;
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin: 19px;
+    width: 489px;
+   
+  }
+  #Sub_btn{
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color:#68914f;
+    border: none;
+    width: 489px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+ /* -----------------Footer------------ */
+ footer{
+    background-color: #537543;
+    color: white;
+    
+
+ }
+ .foot_logo{
+    font-size: 30px;
+     
+ }
+ .foot_logo i{
+    margin: 10px 10px 10px 0;
+ }
+
+ .foot_flex{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 60px;
+
+ }
+ .foot_text{
+    width: 417px;
+ }
+
+ h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 33px;
+    padding: 20px 0;
+ }
+
+ p{
+    font-family: "Poppins";
+    font-size: 18px;
+ }
+ 
